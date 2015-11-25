@@ -29,9 +29,9 @@ public abstract class CommonBaseAdapter <VH extends CommonBaseAdapter.ViewHolder
         this.mInflater = LayoutInflater.from(mContext);
     }
 
-    public CommonBaseAdapter() {
-        super();
-    }
+//    public CommonBaseAdapter() {
+//        super();
+//    }
 
     @Override
     public int getCount() {
